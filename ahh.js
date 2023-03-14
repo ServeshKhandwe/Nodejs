@@ -3,7 +3,9 @@ console.log(names)
 const sayhi =require("./5-utils");
 
 
+require('./6-alternative-flavour')
 
-sayhi('susan')
-sayhi(names.jay)
-sayhi(names.sergio)
+
+// sayhi('susan')
+// sayhi(names.jay)
+// sayhi(names.sergio)
