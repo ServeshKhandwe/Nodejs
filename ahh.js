@@ -1,11 +1,14 @@
-const names = require("./4-names");
-console.log(names)
-const sayhi =require("./5-utils");
+const amount = 12
+
+if(amount<10){
+    console.log('small number')
+}else{
+    console.log('large number')
+}
+
+console.log('Hey my first node app! ')
 
 
-require('./6-alternative-flavour')
-
-
-// sayhi('susan')
-// sayhi(names.jay)
-// sayhi(names.sergio)
+setInterval(()=>{
+    console.log("Hello World")
+},1000)
